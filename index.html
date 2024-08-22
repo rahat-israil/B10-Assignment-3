@@ -27,26 +27,13 @@
           .manrope-font{
             font-family: "Manrope", sans-serif;
           }
-
-          .custom-bg {
-  background: ;
-}
-
-.custom-bg-header {
-  background: #F5F5F5, #FEFEFE;
-}
-
-.primary-btn {
-  color: #ABEF5F;
-}
-
-.secondary-btn {
-  color: #D4f6AE;
-}
-
-.text-bg {
-  color: #EEFCDF;
-}
+          .custom-bg{
+            background-image: url(./assets/bg.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            background-position: center;
+          }
       </style>
 </head>
 
@@ -154,8 +141,9 @@
         </section>
       
       <!-- Works Process Section -->
-        <section class="container mx-auto">
+        <section class="container mx-auto pb-20">
             <div class="mt-5 lg:mt-24 lg:w-1/2 mx-auto">
+              <!-- Button -->
                 <div class="flex justify-center lg:flex-none pt-6 lg:pt-0">
                   <button class="bg-white rounded-full px-6 lg:px-5 py-2 lg:py-1 font-bold"><i
                       class="fa-solid fa-arrow-right text-black text-xl lg:text-lg pr-2"></i>How we works<button>
@@ -191,6 +179,40 @@
                   <img src="./assets/budget-planning.png" alt="">
                   <h3 class="text-xl font-extrabold">Budget Planning</h3>
                   <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+            </div>
+        </section>
+
+      <!-- Let's Discuss Section-->
+        <section class="bg-white">
+            <div class="custom-bg mx-auto border-4 lg:border-8 border-white">
+                <div class="container mx-auto pb-10 lg:pb-24">
+                  <!-- Text Content -->
+                    <div class="mt-5 lg:pt-20 lg:w-1/2 mx-auto">
+                      <!-- Button -->
+                      <div class="flex justify-center lg:flex-none pt-6 lg:pt-0">
+                        <button class="bg-[#ABEF5F33] rounded-full px-6 lg:px-5 py-2 lg:py-1 font-bold"><i
+                            class="fa-solid fa-arrow-right text-black text-xl lg:text-lg pr-2"></i>Let’s Connect<button>
+                      </div>
+                      <!-- Text Content -->
+                      <h1 class="pt-5 text-3xl lg:text-5xl font-extrabold tracking-tight text-center">Let’s Discuss Next Project</h1>
+                      <p class="pt-4 lg:pt-7 mx-3 lg:mx-0 font-medium text-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek
+                      metal accents.</p>
+                    </div>
+                  <!-- Input Field -->
+                    <div class="pt-8 w-[90%] lg:w-2/3 mx-auto lg:grid lg:grid-cols-2 gap-5 space-y-6 lg:space-y-0 ">
+                        <input type="text" placeholder="First Name*" class="input input-bordered input-lg w-full rounded-full" />
+                        <input type="text" placeholder="Last Name*" class="input input-bordered input-lg w-full rounded-full" />
+                        <input type="text" placeholder="Phone Number*" class="input input-bordered input-lg w-full rounded-full" />
+                        <input type="text" placeholder="Email Number*" class="input input-bordered input-lg w-full rounded-full" />
+
+                        <textarea placeholder="Write your message here" class="textarea textarea-bordered textarea-lg w-full h-60 col-span-2 rounded-3xl"></textarea>
+                      <!-- Button -->
+                        <div class="btn lg:flex lg:items-center h-16 lg:h-14 bg-lime-300 text-white rounded-full w-full col-span-2">
+                          <a class="text-black font-extrabold pl-1 text-xl">Send Mail</a>
+                          <button class="bg-black w-8 h-8 rounded-full mr-2 -rotate-45"><i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
