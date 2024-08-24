@@ -72,8 +72,18 @@
                 </div>
               </div>
               <!-- Hamburger -->
-              <div class="flex justify-center lg:hidden ">
-                <button class="bg-white border-2 w-12 h-12 rounded-full "><i class="fa-solid fa-bars"></i></button>
+              <div class="dropdown">
+                <div class="flex justify-center lg:hidden ">
+                  <button class="bg-white border-2 w-12 h-12 rounded-full "><i class="fa-solid fa-bars"></i></button>
+                </div>
+                <ul tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100  rounded-box z-[1] mt-3 w-52 p-2 shadow right-0-0 relative right-0">
+                  <li class="font-extrabold cursor-pointer"><a>Home</a></li>
+                  <li class="text-gray-500 cursor-pointer"><a>Services</a></li>
+                  <li class="text-gray-500 cursor-pointer"><a>Portfolio</a></li>
+                  <li class="text-gray-500 cursor-pointer"><a>Blogs</a></li>
+                  <li class="text-gray-500 cursor-pointer"><a>Contact Us</a></li>
+                </ul>
               </div>
             </div>
           </nav>
